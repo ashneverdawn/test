@@ -1,6 +1,6 @@
 //Server test
 
-Es.Apitest()
+ES.V1.Apitest()
 
 var abc = 2 + 2;
 console.log("server/server.js: The value of abc is " + abc); // 4
