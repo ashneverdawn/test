@@ -1,6 +1,6 @@
 //Server test
 
-apitest()
+es.apitest()
 
 var abc = 2 + 2;
 console.log("server/server.js: The value of abc is " + abc); // 4
