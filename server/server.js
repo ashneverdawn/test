@@ -2,11 +2,7 @@
 
 ES.V1.Apitest()
 
-ES.V1.EventStopListen("event")
-ES.V1.EventTrigger("event", 1, 2, 3)
 ES.V1.EventListen("event", "test")
-ES.V1.EventTrigger("event", 1, 2, 3)
-ES.V1.EventStopListen("event")
 ES.V1.EventTrigger("event", 1, 2, 3)
 
 var abc = 2 + 2;
