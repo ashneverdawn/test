@@ -1,3 +1,0 @@
-//Server test
-var abc = 2 + 2;
-console.log("client/text.txt: The value of abc is " + abc); // 4
