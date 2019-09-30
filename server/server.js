@@ -1,10 +1,10 @@
 //Server test
 
-ES.V1.EventListen("event", "test")
-ES.V1.EventTrigger("event", 1, 2, 3)
+ES.V1.EventListen("server.js/selectCharacter", "selectCharacter")
+ES.V1.EventTrigger("server.js/selectCharacter")
 
 
-function test(a, b, c) {
+function selectCharacter() {
   
   var characters = ES.V1.GetPlayerCharacters() 
   if(characters.length == 0) {
