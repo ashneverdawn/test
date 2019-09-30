@@ -6,7 +6,7 @@ ES.V1.EventTrigger("event", 1, 2, 3)
 
 function test(a, b, c) {
   
-  var characters = ES.V1.GetUserCharacters() 
+  var characters = ES.V1.GetPlayerCharacters() 
   if (characters == null) {
     console.log("Character list null")
     return
@@ -14,7 +14,7 @@ function test(a, b, c) {
   
   console.log(characters.length)
   if(characters.length == 0) {
-     ES.V1.AddUserCharacter('TestName')
+     ES.V1.AddPlayerCharacter('TestName')
      console.log('creating...')
   }
   
