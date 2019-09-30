@@ -13,6 +13,14 @@ function test(a, b, c) {
   }
   
   console.log(characters.length)
+  if(characters.length == 0) {
+     ES.V1.AddUserCharacter('TestName')
+     console.log('creating...')
+  }
+  
+  for (var i = 0; i < characters.length; i++) {
+    console.log(characters[i].Name)
+  }
   console.log(characters)
   
 }
